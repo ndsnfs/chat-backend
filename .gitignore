@@ -14,7 +14,7 @@ nbproject
 Thumbs.db
 
 # composer vendor dir
-#/vendor
+vendor/
 
 # npm vendor dir
 /node_modules
