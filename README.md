@@ -1,3 +1,10 @@
+### Настройка БД
+
+```
+sudo su postgres -c "psql -c \"CREATE USER chat WITH PASSWORD '123456';\""
+sudo su postgres -c "psql -c \"ALTER USER chat WITH SUPERUSER;\""
+sudo su postgres -c "psql -c \"CREATE DATABASE chat OWNER chat;\""
+```
 <p align="center">
     <a href="https://github.com/yiisoft" target="_blank">
         <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
